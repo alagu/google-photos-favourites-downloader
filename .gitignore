@@ -1,3 +1,13 @@
-downloads
 .DS_Store
 node_modules
+credentials.json
+token.json
+
+# Ignore all files in the downloads folder
+downloads/*
+
+# But do not ignore the downloads folder itself
+!downloads/
+
+# Allow tracking of this .gitkeep file to ensure the folder is tracked
+!downloads/.gitkeep
